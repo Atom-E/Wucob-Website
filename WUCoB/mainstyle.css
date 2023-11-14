@@ -1,0 +1,149 @@
+
+  body {
+      font-family: Arial, Helvetica, sans-serif;
+      font: 400 15px;
+      line-height: 1.8;
+      color: #000000;
+  }
+
+  p {
+      font-size: 18px;
+    }
+
+  h2 {
+      font-size: 24px;
+      text-transform: uppercase;
+      color: #800000;
+      font-weight: 600;
+      margin-bottom: 10px;
+  }
+
+  h4 {
+      font-size: 20px;
+      line-height: 1.375em;
+      color: #000000;
+      font-weight: 400;
+      margin-bottom: 10px;
+  }
+
+  .container-fluid {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+
+  .bg-grey {
+      background-color: #e8e8e8;
+      text-align: left;
+      padding-left: 30px;
+      padding-right: 30px;
+  }
+
+  .bg-grey img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        height: 100%;
+        padding-top: 20px;
+        padding-bottom: 20px;
+
+  }
+
+
+  .thumbnail {
+      padding: 15px;
+      border: none;
+      border-radius: 0;
+  }
+
+    .thumbnail img {
+      width: 50%;
+      height: 50%;
+      margin-bottom: 10px;
+      
+  }
+
+  .img-thumbnail{
+    border-radius: 0;
+    border: 0;
+
+  }
+
+  .navbar {
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 16px;
+      letter-spacing: 2px;
+      background-color: #800000;
+  }
+
+  .navbar li a, .navbar .navbar-brand {
+      color: #ffffff !important;
+  }
+
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #800000 !important;
+      background-color: #d9d9d9 !important;
+  }
+
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+
+  footer .glyphicon {
+      font-size: 15px;
+      margin-bottom: 10px;
+      color: #ffffff;
+  }
+
+  footer {
+    color: #e8e8e8;
+    background-color: #800000;
+    font-size: 16px !important; 
+    padding-left: 2px;
+  }
+
+  .copywrite {
+    background-color: #404040;
+    padding: 5px 5px;
+    color: #ffffff;  
+  }
+
+  a:link {
+    color:#ffffff;
+    text-decoration: none;
+  }
+  a:visited {
+  color: #ffffff;
+  background-color: transparent;
+  text-decoration: none;
+}
+  
+  a:hover {
+    background-color: lightblue;
+    color: white;
+    text-decoration: underline;
+  }
+   a:active{
+    color: #ffffff;
+    background-color: transparent;
+}
+  
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: left;
+      margin: 15px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+
+  @media screen and (max-width: 300px) {
+    .logo {
+        font-size: 50px;
+    }
+  }
